@@ -1,0 +1,42 @@
+body {
+    background-image: url("../img/kermit-3657139_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.meme-gen {
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.meme-gen img {
+    height: 430px;
+    object-fit: cover;
+}
+
+.meme-gen .gen-meme-btn {
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #f64d4d;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all 400ms ease;
+    text-transform: uppercase;
+}
+
+.meme-gen .gen-meme-btn:hover {
+    padding: 8px 36px;
+    border-left: 3px solid #222;
+    border-right: 3px solid #222;
+    letter-spacing: 3px;
+    border-radius: 15px;
+}
+
+.meme-gen .meme-author {
+    margin: 8px;
+    color: aliceblue;
+}
